@@ -26,7 +26,7 @@ function App() {
   };
   useEffect(() => {
     newsApi();
-  }, [newsResults,category,loadMore]);
+  }, [newsApi,newsResults,category,loadMore]);
 
   return (
     <div className="App">
